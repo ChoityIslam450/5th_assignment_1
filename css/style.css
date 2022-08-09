@@ -1,0 +1,382 @@
+*{
+  margin:0;
+  padding: 0;
+}
+header{
+background-image: url(../images/contact_us.webp);
+min-height: 100vh;
+background-size: cover;
+background-position: center center;
+padding: 100px;
+}
+.header::before{
+  content: '';position: absolute;left: 0;top: 0;width: 100%;height: 103%;background-color: #bd12bf;opacity: .3;}
+
+.header_content{
+
+}
+.header_menu{display: flex;margin-bottom: 20%;}
+.logo{
+
+width: 75%;
+}
+.logo img{
+
+height: 40px;
+}
+.header_menu ul{
+
+width: 35%;
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+}
+.header_menu ul li{
+
+}
+.header_menu ul li a {
+ text-decoration: none;
+ font-family: lato;
+ font-size: 16px;
+ color: #fff;
+}
+.banner_content{text-align: center;}
+
+.banner_content h3{
+
+color: #ffff;
+
+font-size: 40px;
+
+font-family: lato;
+
+font-weight: 400;
+}
+.banner_content h1{
+
+color: #ffff;
+
+font-size: 80px;
+
+font-family: 'Lato';
+}
+.banner_content p{
+
+font-size: 14px;
+
+color: #fff;
+
+font-family: 'Lato';
+
+margin-top: 80px;
+}
+.banner_content button{
+
+margin-top: 90px;
+
+border: none;
+
+padding: 10px 24px;
+
+border: 1px solid #bd12bf;
+
+font-size: 16px;
+
+border-radius: 7px;
+
+background: transparent;
+
+color: #fff;
+
+transition: .4s all ease-in-out;
+}
+
+.banner_content button:hover{
+  background-color:#bd12bf;
+}
+
+.simple_gallery{
+
+background-color: #f6f9f9;
+
+padding: 100px 0px;
+}
+.gallery_wrapper{
+
+width: 80%;
+
+margin: auto;
+}
+.heading{
+
+text-align: center;
+}
+.heading h1{
+
+font-size: 50px;
+
+font-family: lato;
+
+margin-bottom: 25px;
+
+color: #15a4fa;
+}
+.heading span{
+
+height: 1px;
+
+width: 100%;
+
+display: block;
+
+background-color: #bd12bf;
+}
+
+.gallery{margin-top: 100px;display: flex;justify-content: space-between;}
+
+.gallery_items{
+
+width: 32%;
+}
+.gallery_items img{
+
+width: 100%;
+
+display: block;
+}
+
+.gallery_items h3{
+
+font-size: 40px;
+
+font-family: 'Lato';
+
+margin-bottom: 30px;
+
+margin-top: 30px;
+
+color: #15a4fa;
+
+font-weight: 400;
+}
+.gallery_items p{
+  
+color: #999999;
+  
+font-weight: 600;
+}
+
+.simple{
+
+background-color: #f0f0f0;
+
+padding: 150px 0;
+}
+.main{width: 30%;margin: auto;}
+.main h3{
+
+color: black;
+
+text-align: center;
+
+font-size: 70px;
+}
+.main p{
+  
+font-size: 15px;
+  
+font-family: lato;
+  
+font-weight: 900;
+}
+
+.content{
+
+background-color: #ffffff;
+
+padding: 150px 0;
+
+width: 80%;
+
+margin: auto;
+}
+.content_items{width: 90%;display: flex;justify-content: space-between;}
+.one_item{width: 20%;}
+.one_item h6{
+
+font-size: 15px;
+
+font-family: lato;
+
+margin-bottom: 45px;
+}
+.one_item h1{
+
+font-size: 25px;
+
+color: #bbbbbb;
+}
+
+.one_item p{
+
+font-size: 16px;
+
+font-family: lato;
+
+color: #bbbbbb;
+
+margin-top: 30px;
+}
+.one_item button{
+
+transition: .4s all ease-in-out;
+
+margin-top: 200px;
+
+border: none;
+
+padding: 10px 24px;
+
+border: 1px solid #bd12bf;
+
+font-size: 16px;
+
+border-radius: 7px;
+
+background: transparent;
+}
+.two_item{width: 40%;}
+.two_item img{
+  
+width: 100%;
+  
+margin-left: 13%;
+}
+.one_item button:hover{
+  background-color: #bd12bf;
+}
+.easy{
+  background-image: url(../images/hill\ area.jpg);
+  background-position: center center;
+  padding: 100px;
+  background-size: cover;
+  height: 125px;
+  margin-bottom: 30px;
+}
+
+
+.easy_one{
+
+text-align: center;
+}
+.easy_one h1{
+
+color: #ffff;
+
+font-size: 50px;
+
+margin-bottom: 40px;
+}
+
+.easy_one h5{
+
+color: #fff;
+
+margin-bottom: 50px;
+
+font-size: 14px;
+
+font-family: lato;
+}
+.easy_one button{
+
+background-color: yellowgreen;
+
+border: none;
+
+border: 1px solid #6c9c11;
+
+background: transparent;
+
+border-radius: 4px;
+
+padding: 5px 40px;
+
+font-size: 20px;
+
+color: #fff;
+transition: .4s all ease-in-out;
+}
+
+.easy_one button:hover{
+  background-color:#6c9c11;
+
+}
+footer{
+
+padding: 30px 0;
+}
+.theme{
+
+background-color: #f0f0f0;
+}
+.theme_wrapper{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.menu{
+
+width: 80%;
+}
+.menu ul{width: 48%;list-style: none;display: flex;justify-content: space-between;}
+.menu ul li{
+
+list-style: none;
+}
+.menu ul li a{
+
+text-decoration: none;
+
+color: #626262;
+
+font-size: 16px;
+
+font-family: lato;
+}
+.logo_one{
+}
+.logo_one img{width: 9%;}
+.head{
+
+width: 20%;
+}
+.head h6{
+
+font-size: 11px;
+
+font-family: lato;
+
+color: #626262;
+
+font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
